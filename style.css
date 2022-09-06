@@ -4,7 +4,7 @@
 }
 
 body{
-    height: 99vh;
+    height: 98vh;
     width: 100vw;
     display: grid;
     grid-template-areas:"header" "main" "footer";
@@ -14,7 +14,7 @@ body{
 
 header{
     font-family: Arial, sans-serif;
-    height: 100%;
+    height: 99%;
     grid-area: "header";
     text-transform: uppercase;
     font-weight: bolder;
@@ -35,7 +35,7 @@ main{
     height: 90%;
     grid-area: "main";
     font-family: "Oswald", sans-serif;
-    font-size: 20px;
+    font-size: 100%;
 }
 
 footer{
@@ -48,7 +48,6 @@ footer{
 
 .case{
     display: flex;
-    width: 99%;
     align-items: center;
     justify-content: center;
 }
@@ -73,7 +72,6 @@ footer{
     border-bottom: 3px solid rgba(255, 255, 255, 0.959);
 	cursor: pointer;
     transition: .2s
-
 }
 
 .img img{
@@ -92,7 +90,8 @@ footer{
 
 .grid-1{
     display: grid;
-    grid-template-columns: repeat(6, 200px);
-    grid-template-rows: repeat(3, 200px);
+    width: 80%;
+    grid-template-columns: repeat(6, 16%);
+    grid-template-rows: repeat(3, 33%);
     gap: 10px;
 }
