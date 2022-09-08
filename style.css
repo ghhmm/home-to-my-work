@@ -26,6 +26,7 @@ header{
     font-stretch:extra-expanded;
     font-weight: bolder;
     color: rgb(36, 36, 36);
+    letter-spacing: 2em;
 }
 
 main{
@@ -44,6 +45,7 @@ footer{
     text-transform: uppercase;
     font-weight: bolder;
     margin: 0 auto;
+    letter-spacing: .5em;
 }
 
 .case{
